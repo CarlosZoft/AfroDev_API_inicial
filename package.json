@@ -4,7 +4,8 @@
   "description": "Criação de API, utilizando Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/CarlosZoft/ad-api-initial/issues"
   },
-  "homepage": "https://github.com/CarlosZoft/ad-api-initial#readme"
+  "homepage": "https://github.com/CarlosZoft/ad-api-initial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  }
 }
