@@ -1,0 +1,20 @@
+{
+  "name": "ad-api-initial",
+  "version": "1.0.0",
+  "description": "Criação de API, utilizando Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosZoft/ad-api-initial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosZoft/ad-api-initial/issues"
+  },
+  "homepage": "https://github.com/CarlosZoft/ad-api-initial#readme"
+}
