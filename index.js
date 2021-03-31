@@ -1,4 +1,12 @@
 const configExpress = require('./configExpress');
+const conection = require("./database/conection")
 const app = configExpress();
 
-app.listen(3030, () => console.log("App running"))
+conection.connect(async err => {
+    try{
+        app.listen(3030, () => console.log("App runing..."));
+    }
+    catch(err){
+        console.error(err);
+    }    
+})
