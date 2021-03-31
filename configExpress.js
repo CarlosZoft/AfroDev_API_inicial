@@ -1,4 +1,15 @@
 const express = require("express");
-const app = express();
+const consign = require('consign');
+const bodyParser = require('body-parser');
 
-module.exports = app;
+module.exports = () => {
+    const app = express()
+    
+    app.use(bodyParser.json());
+    
+    consign()
+        .include('controllers')
+        .into(app)
+
+    return app;
+};
