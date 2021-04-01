@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 module.exports = () => {
     const app = express()
     
-    app.use(bodyParser.json());
+    app.use(express.json());
     
     consign()
         .include('controllers')
